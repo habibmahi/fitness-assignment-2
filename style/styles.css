@@ -302,6 +302,13 @@
 .bmi-calculator{
     background: #000;
 }
+.calculator-container{
+    background: #222;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding-top: 42px;
+}
 
 #bmi-heading{
     color: #FFF;
@@ -318,6 +325,89 @@
 
 
 }
+
+#calculator-heading{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FFF;
+    
+}
+.chart-table{
+width: 300px;
+}
+.chart-table table{
+    width: 100% ;
+    border: 1px solid  lightslategray;
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.50);
+
+
+
+    
+}
+.chart-table table, th, td  {
+    border: 1px solid  #FFFFFF16; 
+    padding: 10px; 
+}
+
+.input-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFF;
+
+}
+.input-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: .8rem;
+    font-weight: 400;
+
+}
+.cal-input{
+    padding: 10px 34px 10px 18px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+#gender{
+    background: url(/images/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background: rgba(255, 255, 255, 0.10); */
+    background-color: rgba(255, 255, 255, 0.10);
+}
+#select{
+    border-radius: 8px;
+    border: none;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.60);
+    width: 480px;
+    background: url(/images/chevron-down.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 10px 15px 10px 18px;
+}
+.calculate{ 
+    border-radius: 42px;
+    background: #E6533C;
+    color: #FFF;
+    padding: 12px 55px ;
+    font-size: 1rem;
+    font-weight: 600px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 43px;
+
+    
+
+}
+       
+
 
 
 /* responsive for Smaller Devices (Mobile devices) */
@@ -356,6 +446,29 @@
     .run-all{
         flex-direction: column;
         gap: 20px;
+    }
+    .calculator-container{
+        flex-direction: column;
+    }
+    #select{
+        width: 427px;
+    }
+    .calculator-chart{
+        /* text-align: center; */
+        align-items: center;
+        margin: 0 auto;
+    }
+    .input{
+        display: flex;
+
+    }
+    .input input{
+        width: 90%;
+    }
+    .calculator-input{
+        width: 95%;
+        margin: 0 auto;
+
     }
 
     
