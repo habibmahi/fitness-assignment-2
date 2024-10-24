@@ -155,11 +155,8 @@
     height: 100px;
     padding-left: 40px;
     padding-bottom: 10px;
-    transform: translatex(340px);
+    transform: translateX(340px);
     margin-top: 20px;
-
-
-
 
 }
 #card-number{
@@ -414,6 +411,7 @@ width: 300px;
 .team-container{
     border-radius: 18px;
     padding: 10px;
+    padding-bottom: 75px;
     /* background-color:rgba(255, 255, 255, 0.10); */
 }
 #team-title{
@@ -471,7 +469,59 @@ width: 300px;
     margin-top: -80px;
     margin-left: 20px;
 }
-       
+/* >>>>>>>Footer Styles */
+       footer{
+        background-color:#111111;
+       }
+
+     .footer-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 88px;
+        
+        
+     }  
+
+   .footer li{
+    list-style: none;
+   }    
+
+   .footer-contact{
+    display: flex;
+    gap: 80px;
+   }
+   .foot-heading{
+    font-size: 3.8rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+    margin-bottom: -5px;
+
+   }
+   .foot-description{
+    color: rgba(255, 255, 255, 0.50);
+   }
+   .li{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+
+   }
+   .li-a{
+    color: #FFF;
+    font-size: 1.65rem;
+    font-weight: 700;
+    margin-bottom: 34px;
+    margin-top: 54px;
+   }
+   #copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 28px;
+   }
 
 
 
@@ -491,13 +541,19 @@ width: 300px;
         display: block;
     
     }
+    .banner-img{
+        width: 100%;
+    }
     .banner{
         flex-direction: column;
         width: 350px;
     }
     .card-b{
-        transform: translateX(200px);
+        transform: translateX(80px);
+        margin-top: 100px;
     }
+        
+    
     .habits-container{
         flex-direction: column;
     }
@@ -515,11 +571,18 @@ width: 300px;
     .run-btn{
         width: 100%;
     }
+    .run-img {
+        margin: 0 auto;
+    }
+    .run-img img{
+        width: 80%;
+        justify-content: center;
+    }
     .calculator-container{
         flex-direction: column;
     }
     #select{
-        width: 427px;
+        width: 90%;
     }
     .calculator-chart{
         /* text-align: center; */
@@ -544,6 +607,13 @@ width: 300px;
     .hide{
         display: none;
     }
-
-    
+    .footer-container, .footer-contact{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #copyright{
+        width: 50%;
+        margin: 0 auto;
+    }
 }
+    
