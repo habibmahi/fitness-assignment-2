@@ -116,6 +116,7 @@
 
 
 
+
 .banner-img{
     /* background: url(<path-to-image>) lightgray -451.558px 0px / 267.675% 100.345% no-repeat;     */
     /* background: linear-gradient(to right, 
@@ -296,6 +297,27 @@
     border-radius: 18px;
 }
 
+
+/* BMI Calculator section styles */
+.bmi-calculator{
+    background: #000;
+}
+
+#bmi-heading{
+    color: #FFF;
+    font-size: 2.625rem;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+#bmi-description{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 400;
+    font-size: .8rem;
+
+
+}
 
 
 /* responsive for Smaller Devices (Mobile devices) */
